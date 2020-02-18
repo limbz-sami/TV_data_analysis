@@ -17,7 +17,7 @@ impact on APV was not significant (p_value = 0.89). Therefore, I decided to inco
 To find index for runtime I followed following steps:
 a) First I observed relationship between APV and run-time using scatterplot (APV_RunTime sheet in excel). I used trendline and plotted model that has best fit. Logarithmic function had better fit with R2_value of 0.79. Linear regression didn't seem to fit as it produced negative APV value if the runtime crosses 225mins.
 b) The logarithm function was used to find APV on the curve at a given run time across all series(Presented as APV_logarithm in the analysis_data sheet on the excel file). APV on the curve represents average APV at a given run time across all series. This average APV can be used access whether the series is performing above or below the average. 
-c) Finally, to find an index that represents relative performance of the series, APV of a series was divided by average APV for the runtime(APV_logarithm). This index just represents distance between APV of the series and the average APV (APV on the curve). 
+c) Finally, to find an index that represents relative performance of the series, APV of a series was divided by average APV for the runtime(APV_logarithm). 
 
 To account for other variables that significantly impacted APV, similar method was followed and an index was formed for each variables. For example: To account of network, A series's APV broadcasted by specific network was divided by average APV of the network across all series. All of the indexes are added and divided by number of the index to produce engagement index
 
