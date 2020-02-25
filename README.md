@@ -1,0 +1,26 @@
+# TV_data_analysis
+## Data-analysis process.
+
+The main goal here is to determine the engagement index based on APV. In order to do that, first I needed to understand impact of different variables on APV and
+strength of the relationship.
+
+Some of the relationship explored:
+
+1) APV vs Run-time: It is understood that APV has strong relationship with Run-time (almost inverse relationship).  
+2) APV vs daypart (to understand if time of the day plays an important role in APV) 
+3) APV vs network
+4) APV vs broadcast/cable
+
+All of the relationships were quickly plotted in excel and used JMP to understand the significance of the relationships. Out of all the relationships, broadcast/cable 
+impact on APV was not significant (p_value = 0.89). Therefore, I decided to incorporate network, daypart on APV to build the engagement index. 
+
+To find index for runtime I followed following steps:
+a) First I observed relationship between APV and run-time using scatterplot (APV_RunTime sheet in excel). I used trendline and plotted model that has best fit. Logarithmic function had better fit with R2_value of 0.79. Linear regression didn't seem to fit as it produced negative APV value if the runtime crosses 225mins.
+b) The logarithm function was used to find APV on the curve at a given run time across all series(Presented as APV_logarithm in the analysis_data sheet on the excel file). APV on the curve represents average APV at a given run time across all series. This average APV can be used access whether the series is performing above or below the average. 
+c) Finally, to find an index that represents relative performance of the series, APV of a series was divided by average APV for the runtime(APV_logarithm). 
+
+To account for other variables that significantly impacted APV, similar method was followed and an index was formed for each variables. For example: To account of network, A series's APV broadcasted by specific network was divided by average APV of the network across all series. All of the indexes are added and divided by number of the index to produce engagement index
+
+engagement index = index(run_time)+index(network)+index(daypart)/3
+
+I used jupyter notebook to demonstrate the performance of different variables based on the engagement index. To check if runtime impacts engagement index, Engagement index was plotted against runtime and p_value, r_value was calculated using scipy stats. There was no significant relationship between engagement index and runtime (pvalue = 0). This indicates that the engagement index is isolated from the runtime.
