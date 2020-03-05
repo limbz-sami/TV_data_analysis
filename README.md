@@ -2,7 +2,7 @@
 
 ## Objective
 
-The main goal here is to determine the engagement index based on Average Percent Viewership (APV). In order to do that, first I needed to understand impact of different variables on APV by performing regression analysis and understand strength of the relationships.
+The main goal here is to develop viewer's engagement index based on Average Percent Viewership (APV). In order to do that, first I needed to understand impact of different variables on APV by performing regression analysis and understand strength of the relationships.
 
 ## Some of the relationship explored:
 
