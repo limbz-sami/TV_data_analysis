@@ -4,7 +4,7 @@
 
 The main goal here is to develop viewer's engagement index based on Average Percent Viewership (APV). In order to do that, first I needed to understand impact of different variables on APV by performing regression analysis and understand strength of the relationships.
 
-## Some of the relationship explored:
+## Some of the relationships explored:
 
 1) APV vs Run-time: It is understood that APV has strong relationship with Run-time (almost inverse relationship).  
 2) APV vs daypart (to understand if time of the day plays an important role in APV) 
