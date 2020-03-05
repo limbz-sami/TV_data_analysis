@@ -1,6 +1,6 @@
 # Television Data Analysis
 
-## Objective
+## Objectives
 
 1) Develop viewer's engagement index based on Average Percent Viewership (APV). 
 2) Visualize performance of Type(broadcast/cable), network, daypart based on the engagement index
