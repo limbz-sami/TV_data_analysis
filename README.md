@@ -1,10 +1,10 @@
 # Television Data Analysis
-## Data Analysis Process.
 
-The main goal here is to determine the engagement index based on APV. In order to do that, first I needed to understand impact of different variables on APV and
-strength of the relationship.
+## Objective.
 
-Some of the relationship explored:
+The main goal here is to determine the engagement index based on Average Percent Viewership (APV). In order to do that, first I needed to understand impact of different variables on APV by performing regression analysis and understand strength of the relationships.
+
+##Some of the relationship explored:
 
 1) APV vs Run-time: It is understood that APV has strong relationship with Run-time (almost inverse relationship).  
 2) APV vs daypart (to understand if time of the day plays an important role in APV) 
