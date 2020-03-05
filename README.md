@@ -2,7 +2,10 @@
 
 ## Objective
 
-The main goal here is to develop viewer's engagement index based on Average Percent Viewership (APV). In order to do that, first I needed to understand impact of different variables on APV by performing regression analysis and understand strength of the relationships.
+1) Develop viewer's engagement index based on Average Percent Viewership (APV). 
+2) Visualize performance of Type(broadcast/cable), network, daypart based on the engagement index
+
+In order to determine engagement index, first I needed to understand impact of different variables on APV by performing regression analysis and understand strength of the relationships.
 
 ## Some of the relationships explored:
 
