@@ -22,8 +22,6 @@ a) First I observed relationship between APV and run-time using scatterplot (APV
 b) The logarithm function was used to find APV on the curve at a given run time across all series(Presented as APV_logarithm in the analysis_data sheet on the excel file). APV on the curve represents average APV at a given run time across all series. This average APV can be used access whether the series is performing above or below the average. 
 c) Finally, to find an index that represents relative performance of the series, APV of a series was divided by average APV for the runtime(APV_logarithm). 
 
-To account for other variables that significantly impacted APV, similar method was followed and an index was formed for each variables. For example: To account of network, A series's APV broadcasted by specific network was divided by average APV of the network across all series. All of the indexes are added and divided by number of the index to produce engagement index
-
-engagement index = index(run_time)+index(network)+index(daypart)/3
+To account for other variables that significantly impacted APV, similar method was followed and an index was formed for each variables. For example: To account of network, A series's APV broadcasted by specific network was divided by average APV of the network across all series. 
 
 I used jupyter notebook to demonstrate the performance of different variables based on the engagement index. To check if runtime impacts engagement index, Engagement index was plotted against runtime and p_value, r_value was calculated using scipy stats. There was no significant relationship between engagement index and runtime (pvalue = 0). This indicates that the engagement index is isolated from the runtime.
