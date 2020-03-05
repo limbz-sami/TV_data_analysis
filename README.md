@@ -1,5 +1,5 @@
-# TV_data_analysis
-## Data-analysis process.
+# Television Data Analysis
+## Data Analysis Process.
 
 The main goal here is to determine the engagement index based on APV. In order to do that, first I needed to understand impact of different variables on APV and
 strength of the relationship.
