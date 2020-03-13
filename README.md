@@ -1,5 +1,5 @@
 # Television Data Analysis
-Television viewership data was evaluated to measure audience engagement. Audience reponse to certain network, series, or certain time-block is a valuable information as it could be used by media or advertisers to showcase ad. This project first builds a metrics that infer how "engaged" the audiences are. The metrics is then used to compare performance of different network, boardcast type, and time-block. 
+Television viewership data was evaluated to measure audience engagement. Audience response to certain network, series, or certain time-block is a valuable information as it could be used by media or advertisers to showcase ad. This project first builds a metrics that infer how "engaged" the audiences are. The metrics was then used to compare performance of different network, boardcast type, and time-block. 
 
 ## Objectives
 1) Develop viewer's engagement index based on Average Percent Viewership (APV). 
