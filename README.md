@@ -22,7 +22,7 @@ a) First relationship between APV and run-time was observed using scatterplot (A
 b) The logarithm function was used to find APV on the curve at a given run time across all series(Presented as APV_logarithm in the analysis_data sheet on the excel file). APV on the curve represents average APV at a given run time across all series. This average APV can be used access whether the series is performing above or below the average. 
 c) Finally, to find an index that represents relative performance of the series, APV of a series was divided by average APV for the runtime(APV_logarithm). 
 
-### Result
+## Result
 Used jupyter notebook to demonstrate the performance of different variables based on the engagement index. 
 
 ### Network performance
