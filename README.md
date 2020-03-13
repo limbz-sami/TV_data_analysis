@@ -34,7 +34,7 @@ Broadcast is performing slightly better than the average while cable tv is below
 ![4-scatter](Images/broadcast_performance.png)
 
 ### Time-block importance
-Seems unusual but Overnight and latefringe viewer seems to have better viewer engagement than other day-time period
+Seems unusual but Overnight viewer seems to have better viewer engagement than other day-time period
 ![4-scatter](Images/TimeBlock_performance.png)
 
 ### Is the engagement-index isolated from runtime?
