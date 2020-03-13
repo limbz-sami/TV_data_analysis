@@ -37,7 +37,7 @@ Broadcast is performing slightly better than the average while cable tv is below
 Seems unusual but Overnight and latefringe viewer seems to have better viewer engagement than other day-time period
 ![4-scatter](Images/TimeBlock_performance.png)
 
-### Is the index isolated from runtime?
+### Is the engagement-index isolated from runtime?
 To check if runtime impacts engagement index, Engagement index was plotted against runtime, r_value was calculated using scipy stats. There was no significant relationship between engagement index and runtime with very low r2-value. This indicates that the engagement index is isolated from the runtime.
 ![4-scatter](Images/Runtime_index.png)
 
